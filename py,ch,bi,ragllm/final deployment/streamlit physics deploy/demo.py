@@ -8,7 +8,7 @@ from langchain_community.embeddings import HuggingFaceEmbeddings
 from langchain_community.vectorstores import Chroma
 import os
 
-key = "AIzaSyDI_nBkIwy7OsZfuyKh6tUJZYHYwRa25tQ"
+key = "paste here"
 
 pdf_path = 'phy02.pdf' 
 
