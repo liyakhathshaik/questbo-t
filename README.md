@@ -86,6 +86,66 @@ final deployment/
 
 ---
 
+---
+
+## ✅ Steps to Run the Project
+
+1. **Clone the repository**:
+    ```bash
+    git clone https://github.com/liyakhathshaik/questbo-t.git
+    cd questbo-t/py,ch,bi,ragllm/final deployment
+    ```
+
+2. **Install dependencies**:
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+3. **Run the app**:
+    ```bash
+    python app.py
+    ```
+
+---
+
+## 🧪 Example Subjects Supported
+
+- ⚛️ Physics (e.g., "Explain Newton's second law")
+- 🧪 Chemistry (e.g., "What is covalent bonding?")
+- 🔬 Biology (e.g., "Stages of cellular respiration")
+
+---
+
+## 📈 Results & Advantages
+
+### 🚀 Why QuestBo-T (RAG Model) is Better for IIT JEE Questions
+
+- ✅ **Syllabus-Specific Context**:  
+  QuestBo-T retrieves context **only from documents aligned with the IIT JEE syllabus**, ensuring that answers stay relevant and on-topic.  
+  General AI models like ChatGPT may pull in broader knowledge that sometimes goes outside syllabus scope — which can confuse students.
+
+- ✅ **Higher Accuracy in Subject Questions**:  
+  When tested on IIT JEE previous year questions:
+  - QuestBo-T generated more accurate and syllabus-specific answers compared to general-purpose AI.
+  - Retrieval step ensures that even complex, multi-step problems get supporting context before answer generation.
+
+- ✅ **Focused for Education**:  
+  This model is fine-tuned to perform well on academic-style queries, unlike general models that are trained for open-domain conversation.
+
+### 📊 Example Result Comparison
+
+| Question                              | General AI Answer                   | QuestBo-T Answer (with RAG)            |
+|---------------------------------------|-------------------------------------|---------------------------------------|
+| "Explain Bohr’s postulates"           | General explanation with extra info | Focused explanation matching NCERT & IIT syllabus |
+| "Derive Newton's second law formula"  | Mixed explanation                   | Step-by-step syllabus-based derivation |
+
+### 🏅 Best Use Case:
+- Perfect for **IIT JEE** aspirants and academic platforms needing **syllabus-locked** question answering.
+- Generates practice questions or explanations based on the **retrieved syllabus content** — improving learning accuracy.
+
+---
+
+
 ## 🙌 Author
 
 Developed by [liyakhathshaik](https://github.com/liyakhathshaik)
