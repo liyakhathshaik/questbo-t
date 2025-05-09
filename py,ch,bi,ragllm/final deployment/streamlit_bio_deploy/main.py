@@ -7,7 +7,7 @@ from langchain_community.embeddings import HuggingFaceEmbeddings
 from langchain_community.vectorstores import Chroma
 import os
 
-key = "AIzaSyB5PimLcFQ3lSlTvm1cM0c-UHNtkm559ws"
+key = "paste bere"
 
 pdf_path = 'bio.pdf' 
 
